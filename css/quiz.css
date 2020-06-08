@@ -55,7 +55,14 @@ h1{
     box-shadow: 0px 3px 0px grey;
     cursor: pointer;
 }
-
+.quiz-wrapper .options ul li.correct{
+    background-color: green;
+    box-shadow: 0px 3px 0px transparent;
+}
+.quiz-wrapper .options ul li.wrong{
+    background-color: red;
+    box-shadow: 0px 3px 0px transparent;
+}
 .quiz-wrapper .score{
     float: left;
     width: 100%;
@@ -63,27 +70,26 @@ h1{
 }
 .quiz-wrapper .score .next{
     width: 40%;
-    float: left;
-    
+    float: left;    
 }
 .quiz-wrapper .score .next button{
     padding: 10px 60px;
     color: white;
-    background-color: #e2a1d9;
+    background-color: #b908a1;
     border: none;
     border-radius: 8px;
     font-size: 16px;
     margin-left: 23px;
-    cursor: pointer;
+    cursor: pointer;    
 }
-.quiz-wrapper .score .scoreboard{
+.quiz-wrapper .score .score-board{
     width: 60%;
     float: left;
     font-size: 20px;
     color: black;
     line-height: 30px;
 }
-.quiz-wrapper .score .scoreboard span{
+.quiz-wrapper .score .score-board span{
     background-color: #82d67f;
     padding: 5px 20px;
     border-radius: 8px;

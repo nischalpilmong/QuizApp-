@@ -12,19 +12,19 @@
         <div class="question" id="questionBox">
         </div>
         <div class="options">
-            <ul>
-                <li id="option1"></li>
-                <li id="option2"></li>
-                <li id="option3"></li>
-                <li id="option4"></li>
+            <ul id="ul">
+                <li id="option1" onclick="button(this)"></li>
+                <li id="option2" onclick="button(this)"></li>
+                <li id="option3" onclick="button(this)"></li>
+                <li id="option4" onclick="button(this)"></li>
             </ul>
         </div>
         <div class="score">
            <div class="next">
-              <button type="button">Next</button>
+              <button type="button" onclick="next()" id="button">Next</button>
            </div>
-           <div class="scoreboard">
-               Score: <span>12</span>
+           <div class="score-board">
+               Score: <span id="scoreBoard">12</span>
            </div>
         </div>
     </div>
